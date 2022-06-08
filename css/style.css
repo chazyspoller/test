@@ -2006,21 +2006,10 @@ body main {
 .advantages__item p {
   margin: 0;
   padding: 0;
-  background: -o-linear-gradient(322.39deg, #d10a42 0%, #0041ca 45.58%);
-  background: linear-gradient(127.61deg, #d10a42 0%, #0041ca 45.58%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .advantages__item p:first-of-type {
   font: 700 4.44em/0.82em "Roboto Condensed", "Arial", sans-serif;
-  background: -o-linear-gradient(322.39deg, #d10a42 0%, #0041ca 45.58%);
-  background: linear-gradient(127.61deg, #d10a42 0%, #0041ca 45.58%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-box-decoration-break: clone;
   -ms-grid-row-span: 2;
   grid-row: span 2;
 }
@@ -2031,9 +2020,18 @@ body main {
 }
 
 .advantages__item span {
+  background: -o-linear-gradient(322.39deg, #d10a42 0%, #0041ca 45.58%);
+  background: linear-gradient(127.61deg, #d10a42 0%, #0041ca 45.58%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.advantages__item span:last-of-type {
   color: #2e35ac;
   background: none;
   background-clip: none;
+  -webkit-text-fill-color: inherit;
   display: block;
   margin-top: 5px;
   font: 400 14px/1em "Roboto Condensed", "Arial", sans-serif;
